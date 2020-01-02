@@ -36,11 +36,22 @@ function startGame() {
             } else if (document.turn == "X") {
                 document.turn = "O";
                 setMessage("It's " + document.turn + "'s turn!");
-                color(apiURL, 140, [0.1,0.2])
+                color(apiURL4, 20, [0.7,0.3])
+                color(apiURL5, 20, [0.7,0.3])
+                color(apiURL6, 20, [0.7,0.3])
+                color(apiURL, 140, [0.1,0.1])
+                color(apiURL2, 140, [0.1,0.1])
+                color(apiURL3, 140, [0.1,0.1])
+
             } else {
                 document.turn = "X";
                 setMessage("It's " + document.turn + "'s turn!");
-                color(apiURL, 140, [0.4,0.5])
+                color(apiURL, 20, [0.1,0.1])
+                color(apiURL2, 20, [0.1,0.1])
+                color(apiURL3, 20, [0.1,0.1])
+                color(apiURL4, 140, [0.4,0.5])
+                color(apiURL5, 140, [0.4,0.5])
+                color(apiURL6, 140, [0.4,0.5])
             }
         }
 

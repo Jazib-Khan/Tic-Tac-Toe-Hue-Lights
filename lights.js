@@ -4,8 +4,17 @@ var apiKey = "stlaB2I6VZ8O80Qepc-1xfmLrHgyTFvB9IGupaQz";
 
 var apiURL = bulbIP + apiKey + "/lights/1";
 
+var apiURL2 = bulbIP + apiKey + "/lights/2";
 
-color(apiURL, 140, [0.1, 0.2]);
+var apiURL3 = bulbIP + apiKey + "/lights/3";
+
+var apiURL4 = bulbIP + apiKey + "/lights/4";
+
+var apiURL5 = bulbIP + apiKey + "/lights/5";
+
+var apiURL6 = bulbIP + apiKey + "/lights/6";
+
+
 
 
 function color(url, brightness, color){

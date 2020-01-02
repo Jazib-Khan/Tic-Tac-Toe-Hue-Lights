@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+}
+.nav{
+	background-color: #EF4343;
+}
+.nav span{
+	font-size: 17px;
+}
+
+.nav a {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+  position: 
+}
+
+.jumbotron {
+  background-image:url(cubes.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.Connect-Box {
+ background-color: #efefef;
+ border-bottom: 1px solid #dbdbdb;
+}
+
+.Connect-Box h2{
+ color: #393c3d;
+ font-size: 24px;
+}
+
+.Connect-Box p{
+    font-size: 18px;
+    margin-bottom: 13px;
+	
+}
+
+.Connect-Box h5 {
+	font-size: 24px;
+}
+
+.Connect-Box h3{
+	font-size: 20px;
+}
+
+
