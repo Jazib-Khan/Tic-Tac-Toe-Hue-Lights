@@ -2,37 +2,29 @@
 <html>
 
   <head>
-    <style>
-      .Square {
-        width: 300px;
-        height: 100px;
-        text-align: center;
-        font-size: 35pt;
-        font-weight: bold;
-        font-family: Verdana;
-        color: black;
-      }
 
-    </style>
-
+  	<!-- Links to javascript & jquery pages for the dynamic interactivity of the website. This is imperative for making a functional game onto a website -->
     <script src="./jquery.js"></script>
     <script src="./lights.js"></script>
     <script src="./game.js"></script>
 
-
+    <!-- Title of the website that appears on the tab naming -->
     <title>Tic Tac Toe</title>
 
+    <!-- Links to css pages for the design of the website -->
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css"  rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
     
   </head>
 
+
+  <!-- body loads the function startGame in the javascript page. Function that starts the game  -->
   <body onload="startGame();">
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
-          <li><a href="./Sign_up.html"><img src = "logo.png" width = "100"></a></li>
+          <li><img src = "logo.png" width = "100"></a></li>
         </ul>
         <ul class="pull-right">
           <li><a href="./index.html">Home</a></li>
@@ -61,6 +53,7 @@
  
       </div>
 <div class="thumbnail">
+	<p><a href="./about.html">Learn how to play</a></p>
       
     </div>
   </div>

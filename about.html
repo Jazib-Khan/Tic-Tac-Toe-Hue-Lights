@@ -2,22 +2,6 @@
 <html>
 
   <head>
-    <style>
-      .Square {
-        width: 300px;
-        height: 100px;
-        text-align: center;
-        font-size: 35pt;
-        font-weight: bold;
-        font-family: Verdana;
-        color: black;
-      }
-
-    </style>
-
-    <script src="./jquery.js"></script>
-    <script src="./lights.js"></script>
-    <script src="./game.js"></script>
 
 
     <title>Tic Tac Toe</title>
@@ -28,11 +12,11 @@
     
   </head>
 
-  <body onload="startGame();">
+  <body>
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
-          <li><a href="./Sign_up.html"><img src = "logo.png" width = "100"></a></li>
+          <li><img src = "logo.png" width = "100"></a></li>
         </ul>
         <ul class="pull-right">
           <li><a href="./index.html">Home</a></li>
@@ -57,37 +41,23 @@
     <div class="row">
       <div class="col-md-4">
       <div class="thumbnail">
+        
 
  
       </div>
 <div class="thumbnail">
+  <p>Tic tac toe is a 2 player turn game that takes only minutes to learn how to play...</p>
+  <p>If you feel comfortable with the rules then click <a href="./game.html">Play</a></p>
       
     </div>
   </div>
   
       <div class="col-md-4">
       <div class="thumbnail">
-        <br></br>
-        <div id="message">messages will go here</div>
-        <table border="2">
-            <tr>
-                <td id="s1" class="Square" onclick="nextMove(this);"></td>
-                <td id="s2" class="Square" onclick="nextMove(this);"></td>
-                <td id="s3" class="Square" onclick="nextMove(this);"></td>
-            </tr>
-            <tr>
-                <td id="s4" class="Square" onclick="nextMove(this);"></td>
-                <td id="s5" class="Square" onclick="nextMove(this);"></td>
-                <td id="s6" class="Square" onclick="nextMove(this);"></td>
-            </tr>
-            <tr>
-                <td id="s7" class="Square" onclick="nextMove(this);"></td>
-                <td id="s8" class="Square" onclick="nextMove(this);"></td>
-                <td id="s9" class="Square" onclick="nextMove(this);"></td>
-            </tr>
-        </table>      
+        
+        
+        
 
-        <a href="javascript:startGame();"><h3>Start Over</h3></a>
   </div>
 
 
@@ -95,11 +65,20 @@
 
 <div class="thumbnail">
   
+  <p>How to play:</p>
+  <p>Step 1: Grab a friend</p>
+  <p>Step 2: Draw a 3 by 3 grid like the one demonstrated to the right</p>
+  <p>Step 3: Understand that the aim of the game is to get 3 in a row of your letter which is how the game is won. This is also demonstrated in the image on the right as player X has alligned itself 3 times in the diagonal direction</p>
+  <p>Step 4: Decide on which player goes first and whoever that is draws either an X or O on any of the squares in the grid they desire</p>
+  <p>Step 5: Then player 2 draws on the grid with the opposite letter to player 1</p>
+  <p>Step 6: Alternate moves from player 1 and 2 until one of the players has drawn three in a row and they're the winner or until no one wins in which all the squares have been used up. In this case go back to step 2 but swap which player goes first.</p>
+  
 </div>
 </div>
 
 <div class="col-md-4">
   <div class="thumbnail">
+    <img src="Grid.gif">
     
   </div>
 </div>
