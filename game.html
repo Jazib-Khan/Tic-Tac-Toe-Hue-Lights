@@ -19,14 +19,17 @@
   </head>
 
 
-  <!-- body loads the function startGame in the javascript page. Function that starts the game  -->
+  <!-- When the page loads the function startGame in the javascript page will run which is the  function that starts the game  -->
   <body onload="startGame();">
+  	<!-- Class that creates the navigation bar -->
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
+          <!-- Image of the logo that is in the navigation class that is contained to be shown on the left hand side for readability -->
           <li><img src = "logo.png" width = "100"></a></li>
         </ul>
         <ul class="pull-right">
+          <!-- Links to other pages on the navigation bar but on the right hand side again for readability -->
           <li><a href="./index.html">Home</a></li>
           <li><a href="./game.html">Game</a></li>      
           <li><a href="./lights_page.html">Lights Page</a></li>
@@ -37,15 +40,17 @@
      
     <div class="jumbotron">
       <div class="container">
+      	<!-- Class that assigns css to bootstrap that displays words onto an image for the design of the site --> 
         <h1>Welcome to my Tic Tac Toe game</h1>
         <p>Play against your friends</p>
       </div>
     </div> 
     
-    <div class="Connect-Box">
+    <!-- Class creating the formation/uniform of the website--> 
+    <div class="Box">
     <div class="container">
 
-
+    <!-- Class creating the formation/uniform of the website--> 
     <div class="row">
       <div class="col-md-4">
       <div class="thumbnail">
@@ -53,50 +58,64 @@
  
       </div>
 <div class="thumbnail">
+	<!-- Link for users to understand how to play the game by taking them to the page with the instructions--> 
 	<p><a href="./about.html">Learn how to play</a></p>
       
     </div>
   </div>
   
+  	  <!-- Class creating the formation/uniform of the website--> 
       <div class="col-md-4">
       <div class="thumbnail">
         <br></br>
+        <!-- created an id for message as this is to be mainpulated on deciding who it is that goes first--> 
         <div id="message">messages will go here</div>
+        <!-- Border to contain the grid for where the letters are to be placed--> 
         <table border="2">
             <tr>
-                <td id="s1" class="Square" onclick="nextMove(this);"></td>
-                <td id="s2" class="Square" onclick="nextMove(this);"></td>
-                <td id="s3" class="Square" onclick="nextMove(this);"></td>
+                <!--
+                table id's created that links to the square deisng linked to the css file that has a function in the js file
+                for allowing interactivity to be clicked on for the tic tac toe game
+            	-->
+                <td id="s1" class="Square" onclick="nextTurn(this);"></td>
+                <td id="s2" class="Square" onclick="nextTurn(this);"></td>
+                <td id="s3" class="Square" onclick="nextTurn(this);"></td>
             </tr>
             <tr>
-                <td id="s4" class="Square" onclick="nextMove(this);"></td>
-                <td id="s5" class="Square" onclick="nextMove(this);"></td>
-                <td id="s6" class="Square" onclick="nextMove(this);"></td>
+                <!--
+                table id's created in this format to have a 3 by 3 grid-->            	
+                <td id="s4" class="Square" onclick="nextTurn(this);"></td>
+                <td id="s5" class="Square" onclick="nextTurn(this);"></td>
+                <td id="s6" class="Square" onclick="nextTurn(this);"></td>
             </tr>
             <tr>
-                <td id="s7" class="Square" onclick="nextMove(this);"></td>
-                <td id="s8" class="Square" onclick="nextMove(this);"></td>
-                <td id="s9" class="Square" onclick="nextMove(this);"></td>
+                <td id="s7" class="Square" onclick="nextTurn(this);"></td>
+                <td id="s8" class="Square" onclick="nextTurn(this);"></td>
+                <td id="s9" class="Square" onclick="nextTurn(this);"></td>
             </tr>
         </table>      
 
+        <!-- link to the javascript to file to run the game thus restarting the game--> 
         <a href="javascript:startGame();"><h3>Start Over</h3></a>
   </div>
 
 
 
-
+<!-- Class creating the formation/uniform of the website--> 
 <div class="thumbnail">
   
 </div>
 </div>
 
+<!-- Class creating the formation/uniform of the website--> 
 <div class="col-md-4">
   <div class="thumbnail">
     
   </div>
 </div>
-<div class="learn-more">
+
+<!-- Class creating the formation/uniform of the website--> 
+<div class="show_more">
   <div class="container">
     <div class="row">
       <div class="col-md-4">

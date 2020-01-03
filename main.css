@@ -10,6 +10,7 @@
   font-weight: bold;
   src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
 }
+/* Sets properties for the 3x3 grid of the tic tac toe game */
 .Square {
   width: 300px;
   height: 100px;
@@ -19,6 +20,8 @@
   font-family: Verdana;
   color: black;
 }
+
+/* Sets properties for the naivigation bar */
 .nav{
 	background-color: #EF4343;
 }
@@ -39,6 +42,7 @@
   position: 
 }
 
+/* Sets properties for jumborotron which is a big box that calls for extra attention (special content or information) */
 .jumbotron {
   background-image:url(cubes.jpg);
   height: 400px;
@@ -63,41 +67,41 @@
   color: #fff;
 }
 
-.learn-more {
+.show_more {
   background-color: #f7f7f7;
 }
 
-.learn-more h3 {
+.show_more h3 {
   font-family: 'Shift', sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
 
-.learn-more a {
+.show_more a {
   color: #00b0ff;
 }
 
-.Connect-Box {
+.Box {
  background-color: #efefef;
  border-bottom: 1px solid #dbdbdb;
 }
 
-.Connect-Box h2{
+.Box h2{
  color: #393c3d;
  font-size: 24px;
 }
 
-.Connect-Box p{
+.Box p{
     font-size: 18px;
     margin-bottom: 13px;
 	
 }
 
-.Connect-Box h5 {
+.Box h5 {
 	font-size: 24px;
 }
 
-.Connect-Box h3{
+.Box h3{
 	font-size: 20px;
 }
 
