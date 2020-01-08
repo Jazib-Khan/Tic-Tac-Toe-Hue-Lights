@@ -1,4 +1,5 @@
 # SOFT-166
+Browswer testing
 
 Testing on Google Chrome:
 
@@ -15,22 +16,20 @@ Testing on Google Chrome:
 Everything is in order
 
 Testing on Microsoft Edge:
+![image](https://user-images.githubusercontent.com/57762628/72021340-af28e500-3265-11ea-88a3-a16b100133c6.png)
 
+![image](https://user-images.githubusercontent.com/57762628/72021376-c962c300-3265-11ea-8990-1c651023f4ae.png)
 
+![image](https://user-images.githubusercontent.com/57762628/72021409-d8e20c00-3265-11ea-858d-fb17981dfe0e.png)
+
+![image](https://user-images.githubusercontent.com/57762628/72021838-e946b680-3266-11ea-9525-79aad45318ba.png)
+
+Everything is in order
+
+Application fact sheet:
 
 [Application fact sheet.pdf](https://github.com/Jazib-Khan/SOFT-166/files/4024390/Application.fact.sheet.pdf)
 
-Implementation peer review:
-Steph "The website looks pretty and the functionality works the ease of naivatgation is good"
-Shaun "The website looks epic and of course the game works well. I do like the way everything is structured on what the website is as well as the instructions on how to play the game"
-Adrian "The website looks good and organized I like how the game works with no room for error in terms of other squares not being able to be clicked on when the game is over and squares that already have letters in them can't be clicked again either. It was good that you prompt the user as well." *Note Adrian had some criticism with the wireframe not looking professional so when developing the site this was something worked on and achieved.
-
 Youtube video: https://www.youtube.com/watch?v=tz-r6H49ULQ
-
-Other browswer's testing
-
-Web accesibility testing
-
-Give credits to jquery and bootstraps
 
 Link to Trello https://trello.com/b/CLBAztPv/soft-166
