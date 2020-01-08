@@ -13,3 +13,11 @@
 [Application fact sheet.pdf](https://github.com/Jazib-Khan/SOFT-166/files/4024390/Application.fact.sheet.pdf)
 
 Youtube Link*
+
+Other browswer's testing
+
+Web accesibility testing
+
+Give credits to jquery and bootstraps
+
+Link to Trello https://trello.com/b/CLBAztPv/soft-166
