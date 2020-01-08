@@ -26,9 +26,7 @@ Testing on Microsoft Edge:
 
 Everything is in order
 
-Application fact sheet:
-
-[Application fact sheet.pdf](https://github.com/Jazib-Khan/SOFT-166/files/4024390/Application.fact.sheet.pdf)
+Application fact sheet: [Application fact sheet.pdf](https://github.com/Jazib-Khan/SOFT-166/files/4024390/Application.fact.sheet.pdf)
 
 Youtube video: https://www.youtube.com/watch?v=tz-r6H49ULQ
 
