@@ -1,9 +1,9 @@
 # Tic-Tac-Toe-Hue-Lights
 
-# Tech Stack
+## Tech Stack
 HTML,CSS, Javascript for creating the game, JQuery & Ajax for controlling the Hue lights
 
-# How I've used hue lights?
+## How I've used hue lights?
 Whilst playing the game in an environment where hue lights are connected I've used JQuerty and Ajax to have a bulb set as a variable and then with that I can push an on/off setting as well as a brigthness and colour setting. Thus, in my game when it's a player 1's turn their light will be bright of a certain colour and during player 2's turn player 1's light will go dim and vice versa. This is to communicate which player's turn it is.
 
 Testing on Google Chrome:
