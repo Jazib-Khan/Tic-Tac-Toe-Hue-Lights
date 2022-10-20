@@ -1,5 +1,14 @@
 # Tic-Tac-Toe-Hue-Lights
 
+## Application fact sheet: 
+[Application fact sheet.pdf](https://github.com/Jazib-Khan/SOFT-166/files/4024390/Application.fact.sheet.pdf)
+
+## Youtube video: 
+https://www.youtube.com/watch?v=tz-r6H49ULQ
+
+## Link to Trello 
+https://trello.com/b/CLBAztPv/soft-166
+
 ## Tech Stack
 HTML,CSS, Javascript for creating the game, JQuery & Ajax for controlling the Hue lights
 
@@ -17,9 +26,3 @@ Whilst playing the game in an environment where hue lights are connected I've us
 ![image](https://user-images.githubusercontent.com/57762628/71785782-a0d79080-2ffb-11ea-8a21-639758db058a.png)
 
 ![image](https://user-images.githubusercontent.com/57762628/71785762-61a93f80-2ffb-11ea-8dc3-4d2fcfb9e8fa.png)
-
-Application fact sheet: [Application fact sheet.pdf](https://github.com/Jazib-Khan/SOFT-166/files/4024390/Application.fact.sheet.pdf)
-
-Youtube video: https://www.youtube.com/watch?v=tz-r6H49ULQ
-
-Link to Trello https://trello.com/b/CLBAztPv/soft-166
